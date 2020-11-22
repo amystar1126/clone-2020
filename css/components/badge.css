@@ -10,11 +10,20 @@
   height: 30px;
 }
 
-.dot {
+.nav-dot {
   position: absolute;
   width: 5px;
   height: 5px;
   left: 35px;
   bottom: 25px;
+  border-radius: 20px;
+}
+
+.header-dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  right: -5px;
+  bottom: 20px;
   border-radius: 20px;
 }

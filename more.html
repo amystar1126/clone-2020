@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chat-Welcome to kakaoClone</title>
+    <title>More-Welcome to kakaoClone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,12 +23,14 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
+        <span class="badge header-dot"></span>
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
       </div>
     </header>
 
@@ -36,17 +38,68 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            class="user-component__avatar user-component__avatar-nm"
-            src="https://cdn.discordapp.com/attachments/778538171847671809/779210794834984960/1590539445989.jpg"
+            class="user-component__avatar user-component__avatar-xl"
+            src="https://cdn.discordapp.com/attachments/778538171847671809/779225610554966036/20201120_150407.jpg"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Amy</h4>
-            <h6 class="user-component__subtitle">바보야</h6>
+            <h4 class="user-component__title">이홍석</h4>
+            <h6 class="user-component__subtitle">
+              lhss0511@naver.com
+              <i class="fas fa-exclamation-circle"></i>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="https://play-lh.googleusercontent.com/sTug7DxquD6aKrTTnsejKXYoK9CrvZo2i6HiuuSXwx5-hU5cm15DPU6ew_CRvji0WhTL"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Kakao story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="https://i.pinimg.com/originals/d5/c8/34/d5c8340dc90bb75a01f06e5093c95c99.jpg"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">kakao friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="https://i.pinimg.com/236x/3d/27/44/3d2744da172cc43dbb3bc5a227b0e3a1.jpg"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Friends Gem</span>
+          </div>
         </div>
       </div>
     </main>
@@ -59,9 +112,9 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chat.html">
+          <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -71,7 +124,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="badge dot"></span>
+            <span class="badge nav-dot"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
         </li>

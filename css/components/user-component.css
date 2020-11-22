@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .user-component,
 .user-component__column {
@@ -9,6 +10,7 @@
 
 .user-component__avatar {
   margin-right: 20px;
+  border: 1px solid rgba(red, green, blue, alpha);
 }
 .user-component__avatar-xl {
   width: 80px;
@@ -41,8 +43,14 @@
 }
 
 .user-component__subtitle {
+  align-items: center;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: tomato;
 }
 
 .user-component__column:last-child {
