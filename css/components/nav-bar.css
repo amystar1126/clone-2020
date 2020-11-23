@@ -15,8 +15,37 @@
   position: relative;
   color: #2e363e;
 }
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 15px;
   bottom: 15px;
+  animation: notificationAnimation 1s ease-in-out infinite;
+}
+
+@keyframes appearBunAnimation {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__btn {
+  animation: appearBunAnimation 1s ease-in-out;
 }
